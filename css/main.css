@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -70,4 +71,133 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+/*HEADER*/
+
+.page-header {
+  background-color: #fff;
+  padding-left: 210px;
+  width: 100%;
+  height: 84px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.item {
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 49px;
+  color: #292D36;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.item:hover {
+  color: red;
+}
+
+.logo {
+  height: 63px;
+  display: inline-block;
+  float: right;
+  margin-right: 210px;
+  margin-top: 10px;
+}
+
+/*FIRST SECTION*/
+
+.first-section {
+  margin-top: 84px;
+  height: 536px;
+  background: url("../assets/images/bg-home.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.first-section-text {
+  height: 536px;
+  text-align: center;
+}
+
+.text-1 {
+  padding-top: 84px;
+  font-size: 20px;
+}
+
+.text-2 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.text-3 {
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.box-services {
+  height: 45px;
+  width: 149px;
+  display: block;
+  background-color: #58CC71;
+  padding-top: 9px;
+  font-size: 15px;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.box-services:hover {
+  color: #58CC71;
+  background-color: #fff;
+}
+
+/*SECOND SECTION*/
+
+.second-section {
+  height: 669px;
+  background: #F17C72;
+}
+
+.second-section-text {
+  color: #fff;
+  text-align: center;
+}
+
+.services {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 84px;
+}
+
+.services-text {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.second-section-images {
+  display: inline-block;
+  padding: 70px;
+}
+
+.services-image {
+  height: 180px;
+  border-radius: 50%;
+}
+
+.second-section-images>h5 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.second-section-images>h6 {
+  margin: 0;
+}
+
+/*THIRD SECTION*/
+
 
