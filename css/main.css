@@ -84,7 +84,13 @@ a:hover {
   right: 0;
 }
 
-.item {
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
   cursor: pointer;
   font-size: 14px;
   margin-right: 49px;
@@ -101,8 +107,7 @@ a:hover {
 
 .logo {
   height: 63px;
-  display: inline-block;
-  float: right;
+  margin-left: 420px;
   margin-right: 210px;
   margin-top: 10px;
 }
