@@ -205,4 +205,30 @@ a:hover {
 
 /*THIRD SECTION*/
 
+.third-section {
+  height: 2300px;
+  width: 100%;
+  margin-top: 0;
+  border: 1px solid black;
+  padding-top: 84px;
+}
 
+.third-section-text {
+  text-align: center;
+}
+
+.hero {
+  height: 900px;
+  margin-top: 20px;
+}
+
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.work-image {
+  height: 240px;
+  margin: 60px 20px ;
+}
